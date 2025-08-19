@@ -95,7 +95,7 @@ object biblioteca(){
 }
 
 object munieco(){
-  var poeso = 5000
+  var peso = 5000
   
   method color() {
     return celeste
