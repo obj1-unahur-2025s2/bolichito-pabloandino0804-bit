@@ -1,3 +1,4 @@
+import objetos.*
 object rosa {
     method gustos(algo){
         return algo.peso() <= 2000
@@ -21,3 +22,4 @@ object juan {
         return (not algo.color().esFuerte()) or (algo.peso() >= 1200 and algo.peso() <= 1800) 
     }
 }
+
