@@ -66,7 +66,7 @@ object remera(){
   }
 }
 
-object pelota(){
+object pelota {
   method color() {
     return pardo
   }
@@ -94,7 +94,7 @@ object biblioteca(){
   }
 }
 
-object munieco(){
+object munieco {
   var peso = 5000
   
   method color() {
@@ -114,7 +114,7 @@ object munieco(){
   }
 }
 
-object placa(){
+object placa {
   var pesos = 5000
   var color = rojo
   
