@@ -4,7 +4,7 @@ object rojo {
   }
 }
 
-object verede {
+object verde {
   method esFuerte() {
     return true
   }
