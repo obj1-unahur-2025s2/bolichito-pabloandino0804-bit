@@ -4,7 +4,7 @@ object rojo {
   }
 }
 
-object verede {
+object verde {
   method esFuerte() {
     return true
   }
@@ -23,36 +23,30 @@ object pardo {
 }
 
 object cobre {
-    method esBrillante() {
+  method esBrillante() {
     return true
   }
 }
 
 object vidrio {
-    method esBrillante() {
+  method esBrillante() {
     return true
   }
 }
 
 object lino {
-    method esBrillante() {
-    return false
-  }
-}
-
-object madera {
-    method esBrillante() {
+  method esBrillante() {
     return false
   }
 }
 
 object cuero {
-    method esBrillante() {
+  method esBrillante() {
     return false
   }
 }
 
-object remera(){
+object remera {
   method color() {
     return rojo
   }
@@ -66,7 +60,7 @@ object remera(){
   }
 }
 
-object pelota(){
+object pelota {
   method color() {
     return pardo
   }
@@ -80,33 +74,19 @@ object pelota(){
   }
 }
 
-object biblioteca(){
+object munieco {
+  var gramos = 5000
+
   method color() {
-    return verde
+    return rojo
   }
 
   method peso() {
-    return 8000
-  }
-  
-  method material() {
-    return madera
-  }
-}
-
-object munieco(){
-  var peso = 5000
-  
-  method color() {
-    return celeste
-  }
-
-  method peso() {
-    return peso
+    return gramos
   }
 
   method cambiarPeso(unValor) {
-    peso = unValor
+    gramos = unValor
   }
   
   method material() {
@@ -114,23 +94,24 @@ object munieco(){
   }
 }
 
-object placa(){
-  var pesos = 5000
-  var color = rojo
+object placa {
+  var gramos = 5000
+  var colorActual = rojo
   
   method color() {
-      return color
+    return colorActual
   }
-  
-  method cambiarColor(nuevoColor){
-    color = nuevoColor
+
+  method cambiarColor(unColor){
+    colorActual = unColor
   }
+
   method peso() {
-    return peso
+    return gramos
   }
 
   method cambiarPeso(unValor) {
-    peso = unValor
+    gramos = unValor
   }
   
   method material() {

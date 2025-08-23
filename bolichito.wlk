@@ -2,12 +2,13 @@ import objetos.*
 
 object bolitichito {
   var objetoEnElMostrador = remera
-  var objetoEnLaVidriera = placa
-  object cambiarObjetoDeLaVidriera(unObjeto){
+  var objetoEnLaVidriera = vidrio
+
+  method cambiarObjetoDeLaVidriera(unObjeto){
     objetoEnLaVidriera = unObjeto
   }
   
-  object cambiarObjetoDelMostrador(unObjeto){
+  method cambiarObjetoDelMostrador(unObjeto){
     objetoEnElMostrador = unObjeto
   }
   

@@ -1,4 +1,5 @@
 import objetos.*
+
 object rosa {
     method gustos(algo){
         return algo.peso() <= 2000
@@ -6,20 +7,20 @@ object rosa {
 }
 
 object estefania {
-    method gustos(){
+    method gustos(algo){
         return algo.color().esFuerte()
     }
 }
 
 object lucia {
-    method gustos(){
+    method gustos(algo){
         return algo.material().esBrillante()
     }
 }
 
 object juan {
-    method gustos(){
-        return (not algo.color().esFuerte()) or (algo.peso() >= 1200 and algo.peso() <= 1800) 
+    method gustos(algo){
+        return (not algo.color().esFuerte()) or (algo.peso().between(1200,1800)) 
     }
 }
 
