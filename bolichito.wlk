@@ -1,6 +1,6 @@
 import objetos.*
 
-object bolitichito {
+object bolichito {
   var objetoEnElMostrador = remera
   var objetoEnLaVidriera = vidrio
 
@@ -24,7 +24,12 @@ object bolitichito {
     return objetoEnElMostrador.peso() > objetoEnLaVidriera.peso()
   }
 
+<<<<<<< HEAD
   method puedeMejorar() {
     return not (self.estaEquilibrado() || self.esMonocromatico())
   }
 }
+=======
+}
+
+>>>>>>> a7916ba90aefaba7e40fb532c33053076f002b59
