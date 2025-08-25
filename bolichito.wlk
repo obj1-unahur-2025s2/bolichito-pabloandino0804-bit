@@ -23,4 +23,8 @@ object bolitichito {
   method estaEquilibrado() {
     return objetoEnElMostrador.peso() > objetoEnLaVidriera.peso()
   }
+
+  method puedeMejorar() {
+    return not (self.estaEquilibrado() || self.esMonocromatico())
+  }
 }
