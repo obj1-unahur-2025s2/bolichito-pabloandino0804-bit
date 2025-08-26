@@ -24,12 +24,7 @@ object bolichito {
     return objetoEnElMostrador.peso() > objetoEnLaVidriera.peso()
   }
 
-<<<<<<< HEAD
   method puedeMejorar() {
-    return not (self.estaEquilibrado() || self.esMonocromatico())
+    return not (self.estaEquilibrado() or self.esMonocromatico())
   }
 }
-=======
-}
-
->>>>>>> a7916ba90aefaba7e40fb532c33053076f002b59
