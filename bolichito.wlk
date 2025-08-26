@@ -25,6 +25,6 @@ object bolichito {
   }
 
   method puedeMejorar() {
-    return not (self.estaEquilibrado() or self.esMonocromatico())
+    return not self.estaEquilibrado() or self.esMonocromatico()
   }
 }
